@@ -18,6 +18,7 @@ then you can run the project with:
 
                  python manage.py runserver
 or
+
                  python manage.py runserver_plus --cert-file cert.crt 
 
 since you can run the project through HTTPS.
@@ -26,11 +27,11 @@ since you can run the project through HTTPS.
 
                  /register =====> register form
 
-                /         =====> dashboard(root)
+                 /         =====> dashboard(root)
 
-                /password_change =====> change password
+                 /password_change =====> change password
 
-                /password_reset  =====> reset password
+                 /password_reset  =====> reset password
 
 
 

@@ -12,25 +12,25 @@ They will also be able to see activity on the platform from the users they follo
 
 You can make a admin account to access to the django admin with this command:
 
-python manage.py createsuperuser
+                 python manage.py createsuperuser
 
 then you can run the project with:
 
-python manage.py runserver
+                 python manage.py runserver
 or
-python manage.py runserver_plus --cert-file cert.crt 
+                 python manage.py runserver_plus --cert-file cert.crt 
 
 since you can run the project through HTTPS.
 
 => (URLS):
 
-/register =====> register form
+                 /register =====> register form
 
-/         =====> dashboard(root)
+                /         =====> dashboard(root)
 
-/password_change =====> change password
+                /password_change =====> change password
 
-/password_reset  =====> reset password
+                /password_reset  =====> reset password
 
 
 
